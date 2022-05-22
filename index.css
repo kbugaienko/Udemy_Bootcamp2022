@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+p {
+  line-height: 2;
+}
+
+.about .heading {
+  color: orange;
+}
+
+.about h2.heading {
+  color: pink;
+}
+
+section.about .heading {
+  color: yellow;
+}
