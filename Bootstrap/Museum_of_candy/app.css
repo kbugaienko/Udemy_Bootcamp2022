@@ -20,3 +20,12 @@ body {
 #mainNavBar .nav-link:hover {
   color: #ea1c2c;
 }
+
+#headdingGroup span{
+  color: #ea1c2c;
+}
+
+#headdingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
