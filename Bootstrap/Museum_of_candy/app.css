@@ -29,3 +29,10 @@ body {
   font-weight: 100;
   font-size: 4rem;
 }
+
+@media (max-width:1200px) {
+  #headdingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
