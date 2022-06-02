@@ -15,7 +15,7 @@ body {
   grid-gap: 5px;
   grid-template-rows: 104px 215px 373px 373px 1fr;
   grid-template-areas: 
-  "header header header header header header"
+  ". header header header header ."
   "featured_header featured_header featured_header featured_header featured_header featured_header"
   ". featured_main featured_main featured_main featured_profile ."
   ". content content content content ."
@@ -25,8 +25,36 @@ body {
 .header {
   background-color: white;
   grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.header .logo {
+  width: 105px;
+}
+
+.header .nav_menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.header .nav_menu a {
+  text-decoration: none;
+  border: 1px solid #f2ab9b;
+  border-radius: 50em;
+  color: #f2ab9b;
+  padding: 15px 30px;
+  margin: 0 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header .nav_menu a:hover,.header .nav_menu .active {
+  background-color: #f2ab9b;
+  color: white;
+}
 .featured_header {
   background-color: rgb(246, 166, 16);
   grid-area: featured_header;
