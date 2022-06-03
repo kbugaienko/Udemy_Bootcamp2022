@@ -108,7 +108,10 @@ body {
 }
 
 .footer {
-  background-color: rgb(90, 167, 83);
+  background-color: #333;
+  color: grey;
+  text-align: center;
+  padding: 1em;
   grid-area: footer;
 }
 
