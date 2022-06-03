@@ -6,7 +6,7 @@ body {
 }
 
 #site_wrap {
-  background-color: rgb(241, 146, 146);
+  background-color: white;
   display: grid;
   grid-template-columns: 
     1fr 
@@ -55,14 +55,36 @@ body {
   background-color: #f2ab9b;
   color: white;
 }
+
 .featured_header {
-  background-color: rgb(246, 166, 16);
+  background-image: url("imgs/featured_image.jpg");
   grid-area: featured_header;
+  background-size:contain;
 }
 
 .featured_main {
-  background-color: rgb(227, 85, 147);
   grid-area: featured_main;
+}
+
+.featured_main h1 {
+  color: #707070
+}
+
+.featured_main p {
+  color: #707070;
+}
+
+.featured_main_btn {
+  text-decoration: none;
+  background-color: #5a8c87;
+  border: 1px solid #5a8c87;
+  border-radius: 50em;
+  color: white;
+  padding: 15px 30px;
+  margin: 0 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  float: right;
 }
 
 .featured_profile {
