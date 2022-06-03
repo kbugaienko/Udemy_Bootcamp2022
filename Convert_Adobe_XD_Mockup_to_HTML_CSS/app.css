@@ -98,8 +98,13 @@ body {
 }
 
 .content {
-  background-color: rgb(54, 33, 127);
   grid-area: content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .content_image {
+  margin: 0 5px 2em 5px;
 }
 
 .footer {
