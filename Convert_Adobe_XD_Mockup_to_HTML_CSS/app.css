@@ -13,7 +13,7 @@ body {
     repeat(4, minmax(0, 272px))
     1fr;
   grid-gap: 5px;
-  grid-template-rows: 104px 215px min-content 373px 1fr;
+  grid-template-rows: 104px 215px min-content min-content 1fr;
   grid-template-areas: 
   ". header header header header ."
   "featured_header featured_header featured_header featured_header featured_header featured_header"
@@ -49,6 +49,7 @@ body {
   margin: 0 8px;
   text-transform: uppercase;
   font-weight: bold;
+  display: inline-block;
 }
 
 .header .nav_menu a:hover,.header .nav_menu .active {
@@ -117,6 +118,7 @@ body {
 
 @media screen and (max-width:480px) {
   #site_wrap {
+    grid-template-rows: min-content 215px min-content min-content 1fr;
     grid-template-areas: 
     "header header header header header header"
     "featured_header featured_header featured_header featured_header featured_header featured_header"
@@ -126,5 +128,20 @@ body {
   } 
   .featured_profile {
     display: none;
+  }
+ .header .nav_menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  } 
+  .header .nav_menu a {
+    margin: 2px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
