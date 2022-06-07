@@ -95,3 +95,19 @@ body {
   margin-bottom: 20px;
   max-width: 420px;
 }
+
+.bike__link {
+  /* because the link - inline element, for paddings a block element is needed */
+  display: inline-block;
+  width: 420px;
+  height: 80px;
+  background-color: #131313;
+  color: #fff;
+  margin-top: 80px;
+  padding: 28px 81px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
+}
