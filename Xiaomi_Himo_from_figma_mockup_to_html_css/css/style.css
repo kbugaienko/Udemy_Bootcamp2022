@@ -73,6 +73,7 @@ body {
 .bike__column-slider {
   flex-basis: 630px;
   margin-left: 30px;
+  max-width: 630px;
 }
 
 .bike__title {
@@ -110,4 +111,34 @@ body {
   line-height: 24px;
   letter-spacing: 1.1em;
   text-transform: uppercase;
+}
+
+.bike__slider .slick-dots{
+  right: 0;
+  top: 52px
+}
+
+.slick-dots {
+  position: absolute;
+}
+
+.slick-dots li + li {
+  padding-top: 10px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  padding: 0;
+  border: none;
+  background-color: #131313;
+  width: 2px;
+  height: 25px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.slick-active button, 
+.slick-dots button:hover {
+  background-color: #FF4040;
 }
