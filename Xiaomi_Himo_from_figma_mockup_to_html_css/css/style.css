@@ -142,3 +142,29 @@ body {
 .slick-dots button:hover {
   background-color: #FF4040;
 }
+
+.bike__list {
+  width: 500px;
+  height: 53px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bike__list-item {
+  font-weight: 700;
+  line-height: 17px;
+  font-size: 14px;
+  text-transform: uppercase;
+  min-width: 160px;
+  text-align: center;
+}
+
+.bike__list-item span {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  padding-top: 13px;
+  text-transform: lowercase;
+}
