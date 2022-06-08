@@ -144,27 +144,32 @@ body {
 }
 
 .bike__list {
-  width: 500px;
-  height: 53px;
   margin-top: 25px;
   display: flex;
   justify-content: space-around;
 }
 
 .bike__list-item {
-  font-weight: 700;
-  line-height: 17px;
-  font-size: 14px;
-  text-transform: uppercase;
   min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  min-height: 40px;
 }
 
-.bike__list-item span {
-  display: block;
+.bike__list-num {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bike__list-text {
+  text-transform: lowercase;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   padding-top: 13px;
-  text-transform: lowercase;
+  margin: auto 0;
 }
