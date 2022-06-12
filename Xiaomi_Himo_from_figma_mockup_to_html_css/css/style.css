@@ -18,6 +18,7 @@ a {
   color: inherit;
 }
 
+
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -209,4 +210,46 @@ body {
   margin: 0 0;
   line-height: 17px;
   max-width: 450px;
+}
+
+.characteristics {
+  height: 789px;
+  margin-bottom: 150px;
+}
+
+.characteristics__inner {
+  /* display: flex; */
+}
+
+.characteristics__title {
+  line-height: 19px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  margin: 0 0;
+}
+
+.characteristics__table {
+  width: 570px;
+  height: 681px;
+}
+
+.characteristics__table table {
+  /* border: 1px solid black; */
+}
+
+.characteristics__table thead {
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 17px;
+  color: #FFFFFF;
+  background-color: #131313;
+  text-align: left;
+}
+
+.characteristics__table td {
+  width: 50%;
+}
+
+.characteristics__table__tr-space > td {
+  padding-bottom: 32px;
 }
