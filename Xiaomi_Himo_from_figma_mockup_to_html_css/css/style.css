@@ -250,6 +250,7 @@ body {
 .characteristics__table__tr-space > td {
   padding-bottom: 32px;
 }
+
 .characteristics__table__tr-space_first > td {
   padding-top: 10px;
 }
@@ -263,17 +264,15 @@ body {
   border-radius: 0px 0px 200.5px 0px;
 }
 
-.bikeslider {
-  height: 632px;
+.slider {
+  margin-bottom: 50px;
 }
 
-.bikeslider-slider {
-  flex-basis: 1150px;
-  max-width: 1150px;
-  margin-left: 50px;
-}
-
-.bikeslider-slider .slick-dots {
-  left: -48px;
+.slider__items .slick-dots {
   top: 0;
+  left: 0;
+}
+
+.slider__item {
+  padding-left: 50px;
 }
