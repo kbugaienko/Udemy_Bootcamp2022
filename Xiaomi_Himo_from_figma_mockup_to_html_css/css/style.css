@@ -262,3 +262,18 @@ body {
   align-self: center;
   border-radius: 0px 0px 200.5px 0px;
 }
+
+.bikeslider {
+  height: 632px;
+}
+
+.bikeslider-slider {
+  flex-basis: 1150px;
+  max-width: 1150px;
+  margin-left: 50px;
+}
+
+.bikeslider-slider .slick-dots {
+  left: -48px;
+  top: 0;
+}
