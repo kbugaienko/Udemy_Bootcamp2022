@@ -7,6 +7,7 @@
 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 li {
@@ -16,6 +17,10 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+p {
+  margin: 0;
 }
 
 body {
@@ -209,4 +214,54 @@ body {
   margin: 0 0;
   line-height: 17px;
   max-width: 450px;
+}
+
+.characteristics {
+  margin-bottom: 150px;
+}
+
+.characteristics__head {
+  margin: 0 0 40px;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.characteristics__inner {
+  display: flex;
+}
+
+.characteristics__items {
+  flex-basis: 570px;
+  margin-right: 60px;
+}
+
+.characteristics__img {
+  align-self: center;
+}
+
+.characteristics__list + .characteristics__list {
+  padding-top: 30px;
+}
+
+.characteristics__title {
+  font-weight: 700;
+  padding: 2px 0 3px;
+  text-transform: uppercase;
+  background-color: #131313;
+  color: #fff; 
+}
+
+.characteristics__line {
+  display: flex;
+  padding-top: 5px;
+}
+
+.characteristics__name {
+  flex-basis: 285px;
+  padding-right: 20px;
+}
+
+.characteristics__descr {
+  flex-basis: 285px;
 }
