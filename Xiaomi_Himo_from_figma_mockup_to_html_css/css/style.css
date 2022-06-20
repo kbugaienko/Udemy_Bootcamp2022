@@ -218,7 +218,8 @@ body {
 }
 
 .characteristics__inner {
-  /* display: flex; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .characteristics__title {
@@ -231,10 +232,6 @@ body {
 .characteristics__table {
   width: 570px;
   height: 681px;
-}
-
-.characteristics__table table {
-  /* border: 1px solid black; */
 }
 
 .characteristics__table thead {
@@ -252,4 +249,16 @@ body {
 
 .characteristics__table__tr-space > td {
   padding-bottom: 32px;
+}
+.characteristics__table__tr-space_first > td {
+  padding-top: 10px;
+}
+
+.characteristics__image {
+  flex-basis: 570px;
+  max-width: 570px;
+  height: 401px;
+  margin-left: 60px;
+  align-self: center;
+  border-radius: 0px 0px 200.5px 0px;
 }
