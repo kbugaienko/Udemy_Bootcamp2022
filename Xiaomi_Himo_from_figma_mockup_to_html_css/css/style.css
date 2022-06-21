@@ -341,6 +341,10 @@ body {
   clip: rect(0 0 0 0 );
 }
 
+.form__input-radio:checked + .form__bike {
+  display: block;
+}
+
 .form__bike {
   display: none;
 }
