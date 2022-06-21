@@ -389,3 +389,31 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+.form__bike-price {
+  font-size: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 220px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FF4040;
+  border-radius: 50%;
+  margin-top: 28px;
+  transform: translateX(-50%);
+}
+
+.form__bike-price::after {
+  content: "";
+  width: 220px;
+  height: 112px;
+  border: 1px solid #FF4040;
+  border-radius: 50%;
+  top: 12px;
+  left: 0;
+  position: absolute;
+}
