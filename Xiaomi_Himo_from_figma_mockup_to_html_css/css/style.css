@@ -288,6 +288,7 @@ body {
 }
 
 .price__inner {
+  height: 403px;
   position: relative;
 }
 
@@ -379,7 +380,6 @@ body {
 .form__btn {
   width: 420px;
   height: 80px;
-  margin-bottom: 100px;
   background: #131313;
   border: 1px solid #131313;
   padding: 28px 81px;
@@ -417,4 +417,57 @@ body {
   top: 12px;
   left: 0;
   position: absolute;
+}
+
+.footer {
+  width: 1920px;
+  height: 100px;
+  background-color: #131313;
+  color: #fff;
+}
+
+.footer__inner {
+  width: 1200px;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__link {
+  height: 15px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+  align-self: center;
+}
+
+.footer__soclinks {
+  width: 85px;
+  height: 28px;
+  color: #131313;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.footer__contact {
+  width: 200px;
+  max-height: 58px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: lowercase;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__contact-phone--text,
+.footer__contact-email--text {
+  padding-left: 10px;
+}
+
+.footer__contact-phone,
+.footer__contact-email {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
