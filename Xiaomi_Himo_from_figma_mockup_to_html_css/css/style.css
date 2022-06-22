@@ -460,3 +460,9 @@ body {
 .footer__contact-link + .footer__contact-link {
   margin-top: 10%;
 }
+
+.form__btn:hover,
+.bike__link:hover {
+  background-color: #FF4040;
+  border: none;
+}
