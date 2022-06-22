@@ -278,3 +278,45 @@ body {
 .slider__item {
   padding-left: 50px;
 }
+
+.footer {
+  background-color: #131313;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.footer__link {
+  color: #fff;
+  text-transform: lowercase;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: underline;
+}
+
+.footer__social-link + .footer__social-link {
+  margin-left: 28px;
+}
+
+.footer_contact {
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__contact-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer__contact-link + .footer__contact-link {
+  margin-top: 10px;
+}
+
+.footer_contact-img {
+  margin-right: 10px;
+}
