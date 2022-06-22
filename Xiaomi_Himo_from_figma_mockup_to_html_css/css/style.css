@@ -420,54 +420,43 @@ body {
 }
 
 .footer {
-  width: 1920px;
-  height: 100px;
   background-color: #131313;
   color: #fff;
 }
 
 .footer__inner {
-  width: 1200px;
-  height: 58px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer__link {
-  height: 15px;
   font-size: 12px;
   line-height: 15px;
   text-transform: lowercase;
-  align-self: center;
+  text-decoration: underline;
 }
 
-.footer__soclinks {
-  width: 85px;
-  height: 28px;
-  color: #131313;
-  display: flex;
-  justify-content: space-between;
-  align-self: center;
+.footer__soclinks-link + .footer__soclinks-link {
+  margin-left: 28px;
+}
+
+.footer__contact-img {
+  margin-right: 10px;
 }
 
 .footer__contact {
-  width: 200px;
-  max-height: 58px;
   font-size: 12px;
   line-height: 15px;
   text-transform: lowercase;
-  display: flex;
-  flex-direction: column;
 }
 
-.footer__contact-phone--text,
-.footer__contact-email--text {
-  padding-left: 10px;
-}
-
-.footer__contact-phone,
-.footer__contact-email {
-  margin-bottom: 10px;
+.footer__contact-link {
   display: flex;
   align-items: center;
+}
+
+.footer__contact-link + .footer__contact-link {
+  margin-top: 10%;
 }
