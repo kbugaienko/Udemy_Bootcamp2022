@@ -43,7 +43,7 @@ body {
 }
 
 .container {
-  width: 1220px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -84,6 +84,7 @@ body {
   flex-basis: 630px;
   margin-left: 30px;
   max-width: 630px;
+  object-fit: cover;
 }
 
 .bike__title {
@@ -273,6 +274,7 @@ body {
   margin-left: 60px;
   align-self: center;
   border-radius: 0px 0px 200.5px 0px;
+  object-fit: cover;
 }
 
 .slider {
@@ -472,4 +474,47 @@ body {
 .bike__link:hover {
   background-color: #FF4040;
   border: none;
+}
+
+@media (max-width: 991px) {
+  .menu {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__inner {
+    display: block;
+    text-align: center;
+  }
+  .menu {
+    margin-top: 50px;
+  }
+  .menu__list {
+    justify-content: space-evenly;
+  }
+  .menu__item + .menu__item {
+    padding-left: 0;
+  }
+  .menu__link {
+    padding: 25px 20px;
+  }
+}
+
+@media (max-width: 460px) {
+  .menu__list {
+    justify-content: space-between;
+  }
+  .menu__link {
+    padding: 25px 0px;
+  }
+}
+
+@media (max-width: 350px) {
+  .menu {
+    margin-top: 30px;
+  }
+  .menu__link {
+    font-size: 12px;
+  }
 }
