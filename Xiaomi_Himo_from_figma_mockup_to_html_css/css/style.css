@@ -223,7 +223,6 @@ body {
 
 .characteristics {
   padding-top: 100px;
-  height: 789px;
   margin-bottom: 150px;
 }
 
@@ -240,8 +239,7 @@ body {
 }
 
 .characteristics__table {
-  width: 570px;
-  height: 681px;
+  flex-basis: 570px;
 }
 
 .characteristics__table thead {
@@ -267,7 +265,6 @@ body {
 
 .characteristics__image {
   flex-basis: 570px;
-  max-width: 570px;
   height: 401px;
   margin-left: 60px;
   align-self: center;
@@ -509,6 +506,27 @@ body {
   .info__item-text {
     max-width: 100%;
   }
+  .characteristics {
+    padding: 35px;
+    margin-bottom: 50px;
+  }
+  .characteristics__inner {
+    flex-wrap: wrap;
+  }
+  .characteristics__image {
+    margin-left: 0;
+    margin-bottom: 30px;
+    order: -1;
+    flex-basis: 100%;
+  }
+  .characteristics__table {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1055px) {
+ 
 }
 
 @media (max-width: 991px) {
