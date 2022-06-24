@@ -497,6 +497,18 @@ body {
     max-width: 100%;
     margin-left: 0;
   }
+  .info {
+    padding: 35px;
+  }
+  .info__img {
+    display: none;
+  }
+  .info__list {
+    flex-basis: 100%;
+  }
+  .info__item-text {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -541,6 +553,9 @@ body {
   }
   .menu__link {
     padding: 25px 20px;
+  }
+  .info__item + .info__item {
+    padding-top: 30px;
   }
 }
 
