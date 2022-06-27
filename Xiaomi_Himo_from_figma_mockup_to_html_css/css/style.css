@@ -288,12 +288,10 @@ body {
 }
 
 .price {
-  height: 403px;
   margin-bottom: 100px;
 }
 
 .price__inner {
-  height: 403px;
   position: relative;
 }
 
@@ -540,14 +538,14 @@ body {
     height: 450px;  
   }
   .form__bike-img {
-    width: 410px;
+    width: 430px;
   }
   .form__label-box {
-    margin-bottom: 300px;
+    margin-bottom: 250px;
   }
   .form__bike {
     top: auto;
-    bottom: -190px;
+    bottom: 85px;
     left: 0;
     right: auto;
   }
@@ -559,10 +557,10 @@ body {
   }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 780px) {
   .form__bike-price {
     right: 0;
-    top: -110px;
+    top: -55px;
     transform: translateX(50%);
 
   }
@@ -673,7 +671,7 @@ body {
     margin-bottom: 250px;
   }
   .form__bike {
-    bottom: -140px;
+    bottom: 85px;
     right: 0;
   }
   .form__bike-price {
