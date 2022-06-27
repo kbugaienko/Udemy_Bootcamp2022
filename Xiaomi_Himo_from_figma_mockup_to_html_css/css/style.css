@@ -414,8 +414,8 @@ body {
 }
 
 .footer__inner {
-  height: 100px;
   display: flex;
+  height: 100px;
   justify-content: space-between;
   align-items: center;
 }
@@ -642,6 +642,23 @@ body {
   }
   .form__bike-price::after {
     display: none;
+  }
+  .footer__inner {
+    display: block;
+    text-align: center;
+    height: auto;
+    padding: 15px 0;
+  }
+  .footer__soclinks{
+    padding: 15px 0;
+  }
+  .footer__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__contact-link + .footer__contact-link {
+    margin-top: 0;
   }
 }
 
