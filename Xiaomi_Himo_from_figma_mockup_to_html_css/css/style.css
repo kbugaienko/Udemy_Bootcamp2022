@@ -674,9 +674,19 @@ body {
   }
   .form__bike {
     bottom: -140px;
+    right: 0;
   }
   .form__bike-price {
     top: -30px;
+  }
+  .price__inner {
+    text-align: center;
+  }
+  .form__text {
+    max-width: 100%;
+  }
+  .form__label-box {
+    justify-content: center;
   }
 }
 
