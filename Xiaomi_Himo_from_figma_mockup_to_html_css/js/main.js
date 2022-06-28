@@ -6,7 +6,7 @@ $(function () {
     fade: true,
     speed: 500,
     // autoplay for animation
-    // autoplay: true,
-    // autoplaySpeed: 1000,
+    autoplay: true,
+    autoplaySpeed: 1000,
   });
 });
