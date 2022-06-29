@@ -96,6 +96,19 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  position: relative;
+}
+
+.header__content::before {
+  content: '';
+  background-image: url(../images/logo_header_content.svg);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* 50% of the height */
+  bottom: -25px;
 }
 
 .title {
