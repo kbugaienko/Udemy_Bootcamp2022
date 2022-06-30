@@ -64,6 +64,10 @@ button {
   height: 100px;
 }
 
+.header__logo {
+  margin-left: 115px;
+}
+
 .list {
   display: flex;
 }
