@@ -195,7 +195,8 @@ button {
   padding: 14px;
 }
 
-.premier-btn:hover {
+.premier-btn:hover,
+.video__btn:hover {
   color: #53A1CB;
   border: 1px solid #53A1CB;
 }
@@ -214,30 +215,38 @@ button {
   margin-top: 21px;
 }
 
-.videosec {
+.video {
   margin-bottom: 150px;
 }
 
-.videosec__inner {
-  display: flex;
-  flex-direction: column;
+.video__img {
+  margin-bottom: 25px;
 }
 
-.videosec-btn {
+.video__btn {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  text-transform: uppercase;
+  width: 100%;
+  gap: 10px;
   font-family: 'Corporate A-Bold';
-  font-weight: 700;
+  color: #F402A2;
   font-size: 18px;
   line-height: 120%;
-  color: #F402A2;
+  padding: 14px;
+  text-transform: uppercase;
   border: 1px solid #F402A2;
-  height: 50px;
-  margin-top: 25px;
+  transition: all .3s;
 }
 
-.videosec-btn img {
-  padding-right: 9px;
+.video__btn span {
+  padding-top: 2px;
+}
+
+.video__btn path {
+  transition: all .3s;
+}
+
+.video__btn:hover path {
+  fill: #53A1CB;
 }
