@@ -183,7 +183,7 @@ button {
   margin-bottom: 25px;
 }
 
-.premier-btn{
+.premier-btn {
   display: inline-block;
   text-transform: uppercase;
   font-family: 'Corporate A-Bold';
@@ -212,4 +212,32 @@ button {
 
 .premier__img-text {
   margin-top: 21px;
+}
+
+.videosec {
+  margin-bottom: 150px;
+}
+
+.videosec__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.videosec-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: 'Corporate A-Bold';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  color: #F402A2;
+  border: 1px solid #F402A2;
+  height: 50px;
+  margin-top: 25px;
+}
+
+.videosec-btn img {
+  padding-right: 9px;
 }
