@@ -172,27 +172,23 @@ button {
 
 .premier__inner {
   display: flex;
-  justify-content: space-between;
+  gap: 60px;
 }
 
 .premier__text {
-  line-height: 120%;
-}
-
-.premier__text-space {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .premier-btn {
-  display: inline-block;
   text-transform: uppercase;
   font-family: 'Corporate A-Bold';
   font-weight: 700;
   font-size: 18px;
   line-height: 120%;
+  text-align: center;
   color: #F402A2;
   border: 1px solid #F402A2;
-  padding: 14px 260px;
+  padding: 14px;
 }
 
 .premier-btn:hover {
@@ -201,12 +197,12 @@ button {
 }
 
 .premier__descr {
+  display: flex;
+  flex-direction: column;
   flex-basis: 570px;
-  margin-right: 60px;
 }
 
 .premier-img {
-  flex-basis: 570px;
   margin-bottom: 25px;
 }
 
