@@ -157,3 +157,10 @@ button {
   max-width: 900px;
   object-fit: cover;
 }
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
