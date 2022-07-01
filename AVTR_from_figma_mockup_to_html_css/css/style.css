@@ -143,7 +143,8 @@ button {
 }
 
 .concept__title,
-.premier__title {
+.premier__title,
+.interior__title {
   font-family: 'Corporate A-Bold';
   font-weight: 700;
   font-size: 18px;
@@ -249,4 +250,35 @@ button {
 
 .video__btn:hover path {
   fill: #53A1CB;
+}
+
+.design__interior {
+  display: grid;
+  grid-template-columns: 255px 255px auto 330px;
+  grid-template-rows: auto auto;
+  gap: 14px 44px;
+}
+
+.design__cell-one {
+  grid-row: 1/3;
+}
+
+.design__cell-two {
+  grid-row-end: -1;
+  align-self: flex-end;
+}
+
+.design__cell-two .design__cell-text, 
+.design__cell-one .design__cell-text:last-child{
+  margin-bottom: 0;
+}
+
+.design__cell-three {
+  grid-row-end: -1;
+  grid-column-end: -1;
+  align-self: flex-end;
+}
+
+.design__cell-text {
+  margin-bottom: 15px;
 }
