@@ -335,3 +335,9 @@ button {
 .design__box-text {
   margin-bottom: 15px;
 }
+
+.design__img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
