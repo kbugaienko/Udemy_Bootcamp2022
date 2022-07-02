@@ -319,3 +319,19 @@ button {
 .arrow-right {
   transform: translateX(20px);
 }
+
+.design__box {
+  display: flex;
+  max-width: 590px;
+  margin: 150px auto;
+  padding: 0 10px;
+  gap: 60px;
+}
+
+.design__box-column {
+  width: 255px;
+}
+
+.design__box-text {
+  margin-bottom: 15px;
+}
