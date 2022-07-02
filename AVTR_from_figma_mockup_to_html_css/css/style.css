@@ -299,3 +299,23 @@ button {
 .slick-track {
   margin-left: -40px;
 }
+
+.design-slider {
+  padding-bottom: 25px;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  cursor: pointer;
+  left: 50%;
+}
+
+.arrow-left {
+  transform: translateX(-90px);
+}
+
+.arrow-right {
+  transform: translateX(20px);
+}
