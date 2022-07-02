@@ -263,6 +263,7 @@ button {
   grid-template-columns: 255px 255px auto 330px;
   grid-template-rows: auto auto;
   gap: 14px 44px;
+  margin-bottom: 100px;
 }
 
 .design__cell-one {
@@ -287,4 +288,14 @@ button {
 
 .design__cell-text {
   margin-bottom: 15px;
+}
+
+/* add space between images, must be 60px */
+.design-slider__item {
+  margin: 0 30px;
+}
+
+/* move slider track on -40px to the left */
+.slick-track {
+  margin-left: -40px;
 }
