@@ -216,7 +216,7 @@ img {
 .premier__descr {
   display: flex;
   flex-direction: column;
-  flex-basis: 570px;
+  max-width: 570px;
 }
 
 .premier-img {
@@ -379,6 +379,16 @@ img {
   }
   .concept__descr {
     font-size: 16px;
+  }
+  .premier {
+    margin-bottom: 75px;  
+  }
+  .premier__inner {
+    display: block;
+  }
+  .premier__descr {
+    max-width: 100%;
+    padding-bottom: 25px;
   }
 }
 
