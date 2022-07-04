@@ -366,6 +366,9 @@ img {
     height: 205px;
     margin: 0 auto;
   }
+  /* .slick-track {
+    margin-left: 30px;
+  } */
 }
 
 @media(max-width:768px) {
@@ -424,6 +427,9 @@ img {
   .design__box-column {
     width: 100%;
   }
+  /* .slick-track {
+    margin-left: 160px;
+  } */
 }
 
 @media(max-width:520px) {
@@ -444,5 +450,15 @@ img {
   }
   .header__content {
     background-position-x: -835px;
+  }
+}
+
+@media(max-width: 360px) {
+  .design-slider__item {
+    height: 124px;
+    margin: 0 10px;
+  }
+  .slick-track {
+    margin-left: 40px;
   }
 }
