@@ -48,6 +48,11 @@ button {
   cursor: pointer;
 }
 
+/* to scale the image correctly */
+img {
+  width: 100%;
+}
+
 .container {
   max-width: 1220px;
   margin: 0 auto;
@@ -343,6 +348,9 @@ button {
 }
 
 @media(max-width:768px) {
+  .header {
+    margin-bottom: 75px;
+  }
   .header__logo {
     margin-left: 0;
   }
@@ -361,6 +369,16 @@ button {
   }
   .title-descr {
     font-size: 18px;
+  }
+  .concept {
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+  .concept__title {
+    font-size: 16px;
+  }
+  .concept__descr {
+    font-size: 16px;
   }
 }
 
