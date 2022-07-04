@@ -353,6 +353,12 @@ img {
   object-fit: cover;
 }
 
+@media(max-width: 1366px){
+  .footer__inner {
+    height: 150px;
+  } 
+}
+
 @media(max-width: 1020px){
   .design__interior {
     display: block;
@@ -431,10 +437,26 @@ img {
   }
 }
 
+@media(max-width:620px) {
+  .footer__inner {
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .footer .list {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
 @media(max-width:520px) {
   .header__top {
     flex-wrap: wrap;
     align-content: center;
+  }
+  .footer__inner {
+    flex-direction: column;
+    padding-top: 10px;
   }
   .list {
     width: 100%;
