@@ -13,6 +13,14 @@ body {
   font-weight: 400;
 }
 
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -45,6 +53,7 @@ a {
   align-items: center;
   height: 78px;
   padding: 20px;
+  margin-bottom: 50px;
 }
 
 .menu {
@@ -90,4 +99,63 @@ a {
   border-color: transparent;
   border-radius: 4px;
   color: #fff;
+}
+
+.top {
+  margin-bottom: 110px;
+}
+
+.top__inner {
+  display: flex;
+}
+
+.top__descr {
+  max-width: 518px;
+}
+
+.top__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2F281E;
+  margin-top: 83px;
+  margin-bottom: 30px;
+}
+
+.top__text {
+  max-width: 458px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #544837;
+  margin-bottom: 45px;
+}
+
+.top__btns {
+  display: flex;
+  height: 53px;
+}
+
+.top__btn {
+  background: #FF9900;
+  border-radius: 4px;
+  border-color: transparent;
+  color: #fff;
+  padding: 15px 41px;
+  margin-right: 30px;
+}
+
+.top__video {
+  font-weight: 600;
+  text-decoration-line: underline;
+  color: #FF9900;
+  background-color: #fff;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+
+.top__video span {
+  padding-bottom: 3px;
 }
