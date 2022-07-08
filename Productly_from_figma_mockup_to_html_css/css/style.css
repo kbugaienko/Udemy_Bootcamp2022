@@ -344,6 +344,11 @@ a {
   top: 116px;
 }
 
+.team__item--2 {
+  top: 223px;
+  left: 0;
+}
+
 .team__title {
   margin-bottom: 22px;
 }
@@ -395,24 +400,43 @@ a {
   right: 75px;
 }
 
+.team__item-text.team__item-text--left {
+  top: -41px;
+  right: auto;
+  left: 62px;
+}
+
 .team__item-text--right::after,
-.team__item-text--right::before {
+.team__item-text--right::before,
+.team__item-text--left::after,
+.team__item-text--left::before {
   content: '';
   position: absolute;
   background-color: #fff;
   border-radius: 50%;
 }
 
-.team__item-text--right::after {
+.team__item-text--right::after,
+.team__item-text--left::after {
   width: 17px;
   height: 17px;
   bottom: -7px;
   right: 30px;
 }
 
-.team__item-text--right::before {
+.team__item-text--right::before,
+.team__item-text--left::before {
   width: 9px;
   height: 9px;
   bottom: -20px;
   right: 9px;
+}
+
+.team__item-text--left::after {
+  left: 30px;
+  right: auto;
+}
+.team__item-text--left::before {
+  left: 15px;
+  right: auto;
 }
