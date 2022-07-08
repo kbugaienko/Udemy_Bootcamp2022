@@ -354,6 +354,11 @@ a {
   right: 0;
 }
 
+.team__item--4 {
+  top: 504px;
+  left: 221px;
+}
+
 .team__title {
   margin-bottom: 22px;
 }
