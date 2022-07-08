@@ -245,7 +245,8 @@ a {
 }
 
 .designpr__title,
-.managers__title {
+.managers__title,
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
@@ -267,7 +268,8 @@ a {
 
 .designpr__text,
 .managers__text,
-.managers__text-img {
+.managers__text-img,
+.team__text {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -316,4 +318,42 @@ a {
 .designpr-img,
 .top__img {
   object-fit: cover;
+}
+
+.team {
+  background-image: url('../images/team-bg.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.team__inner {
+  padding: 230px 0 380px;
+}
+
+.team__title {
+  margin-bottom: 22px;
+}
+
+.team__box {
+  text-align: center;
+  max-width: 542px;
+  margin: 0 auto;
+}
+
+.team__text {
+  color: #567592;
+  margin-bottom: 45px;
+}
+
+.team__btn {
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #FF9900;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  border-color: transparent;
 }
