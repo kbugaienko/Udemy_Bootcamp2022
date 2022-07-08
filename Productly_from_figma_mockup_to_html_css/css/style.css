@@ -349,6 +349,11 @@ a {
   left: 0;
 }
 
+.team__item--3 {
+  top: 480px;
+  right: 0;
+}
+
 .team__title {
   margin-bottom: 22px;
 }
@@ -436,6 +441,7 @@ a {
   left: 30px;
   right: auto;
 }
+
 .team__item-text--left::before {
   left: 15px;
   right: auto;
