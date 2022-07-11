@@ -505,13 +505,13 @@ a {
 }
 
 .slider__item-title {
-  display: block;
+  display: inline-block;
   max-width: 294px;
   font-weight: 700;
   font-size: 24px;
   line-height: 34px;
   color: #2F281E;
-  margin-bottom: 39px;
+  margin-bottom: 84px;
   transition: all .3s;
 }
 
@@ -537,4 +537,25 @@ a {
 /* add space between elements that equal 40px */
 .slider__item {
   padding: 0 20px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: none;
+  font-size: 0;
+  background-color: #efefef;
+  padding: 0;
+  /* space between dots equal 10px */
+  margin: 0 5px;
+}
+
+.slick-dots .slick-active button {
+  background-color: #FF9900;
 }
