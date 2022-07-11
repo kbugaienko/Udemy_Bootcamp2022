@@ -269,10 +269,12 @@ a {
 }
 
 .designpr__text,
+.designpr__text-h1,
 .managers__text,
 .managers__text-img,
 .marketers__text,
-.team__text {
+.team__text,
+.strategies__text  {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -477,4 +479,48 @@ a {
 
 .marketers__descr {
   margin-right: 30px;
+}
+
+.strategies {
+  margin-bottom: 120px;
+}
+
+.strategies__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strategies__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #2F281E;
+}
+
+.strategies__title-h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;  
+  color: #2F281E;
+  margin-bottom: 39px;
+}
+
+.strategies__text {
+  margin-bottom: 55px;
+} 
+
+.strategies__box {
+  max-width: 348px;
+}
+
+.box__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #544837;
+  margin-bottom: 12px;
+}
+
+.strategies__box-img {
+  margin-bottom: 25px;
 }
