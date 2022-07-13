@@ -675,6 +675,12 @@ a {
   .top__inner img {
     display: none;
   }
+  .top__descr {
+    max-width: 100%;
+  }
+  .top__text {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
