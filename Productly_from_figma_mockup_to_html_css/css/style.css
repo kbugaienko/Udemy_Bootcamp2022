@@ -167,7 +167,6 @@ a {
 
 .top__btns {
   display: flex;
-  height: 53px;
 }
 
 .top__btn {
@@ -673,6 +672,16 @@ a {
     justify-content: flex-end;
     padding-top: 30px;
   }
+  .top__inner img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .top__title {
+    margin-top: 0;
+  }
+
 }
 
 @media (max-width: 524px) {
@@ -713,5 +722,18 @@ a {
     margin-left: 0;
     margin-right: 0;
     margin-top: 25px;
+  }
+  .top__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .top__btns {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 409px) {
+  .top__btn{
+    margin-bottom: 20px;
   }
 }
