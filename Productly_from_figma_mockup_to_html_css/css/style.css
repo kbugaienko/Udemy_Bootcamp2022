@@ -686,7 +686,28 @@ a {
     top: 25px;
   }
   .menu__list {
-    display: none;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #fff;
+    /* hide list items */
+    transform: translateY(-300%);
+    transition: all .3s;
+  }
+  /* show again our list items */
+  .menu__list.menu__list-active {
+    transform: translateY(0%);
+    transition: all .3s;
+  }
+  /* line to full width and indents between lines */
+  .menu__link {
+    display: block;
+    padding: 10px 0;
+  }
+  .menu__item + .menu__item {
+    margin-left: 0;
   }
   .user-nav {
     margin-left: 0;
