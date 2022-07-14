@@ -620,7 +620,7 @@ a {
 }
 
 .footer__form {
-  max-width: 330px;
+  width: 330px;
 }
 
 .footer__form-text {
@@ -748,6 +748,17 @@ a {
   .team__item--5 {
     right: 300px;
   }
+  .footer__inner {
+    flex-wrap: wrap;
+    padding-bottom: 0;
+  }
+  .footer__form {
+    width: 100%;
+    margin-top: 25px;
+  }
+  .footer__form-text {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -838,6 +849,13 @@ a {
   }
   .feature__inner {
     padding-bottom: 30px;
+  }
+  .footer .logo {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .footer__inner {
+    justify-content: space-around;
   }
 }
 
