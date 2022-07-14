@@ -349,7 +349,6 @@ a {
 
 .managers__text-img {
   display: flex;
-  height: 52px;
 }
 
 .managers__icon {
@@ -359,12 +358,12 @@ a {
   width: 35px;
 }
 
-.managers-img,
+/* .managers-img,
 .designpr-img,
 .marketers-img,
 .top__img {
   object-fit: cover;
-}
+} */
 
 .team {
   background-image: url('../images/team-bg.svg');
@@ -689,6 +688,39 @@ a {
     width: 50%;
     margin-bottom: 30px;
     padding-right: 10px;
+  }
+  .designpr-img,
+  .marketers-img,
+  .managers-img {
+    width: 50%;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 860px) {
+  .designpr-img,
+  .marketers-img,
+  .managers-img  {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .managers-img {
+    order: 1;
+  }
+  .designpr__inner,
+  .managers__inner,
+  .marketers__inner {
+    flex-wrap: wrap;
+  }
+  .designpr__descr,
+  .managers__descr,
+  .marketers__descr {
+    max-width: 100%;
+  }
+  .managers,
+  .marketers,
+  .designpr {
+    margin-bottom: 50px;
   }
 }
 
