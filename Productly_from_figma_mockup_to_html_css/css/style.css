@@ -657,6 +657,16 @@ a {
   border: none;
 }
 
+@media (max-width: 1085px) {
+  .team__item--5 {
+    bottom: 70px;
+  }
+  .team__item--2 {
+    top: 210px;
+  }
+}
+
+
 @media (max-width: 992px) {
   .header__inner {
     flex-wrap: wrap;
@@ -695,6 +705,9 @@ a {
     width: 50%;
     object-fit: contain;
   }
+  .team__item--3 {
+    top: 510px;
+  }
 }
 
 @media (max-width: 860px) {
@@ -722,6 +735,9 @@ a {
   .designpr {
     margin-bottom: 50px;
   }
+  .team__item--5 {
+    right: 300px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -729,6 +745,15 @@ a {
     margin-top: 0;
   }
 
+}
+
+@media (max-width: 710px) {
+  .team__item {
+    display: none;
+  }
+  .team__inner {
+    padding: 110px 0 60px;
+  }
 }
 
 @media (max-width: 524px) {
@@ -780,7 +805,11 @@ a {
   .top {
     margin-bottom: 60px;
   }
-  .feature__title {
+  .feature__title,
+  .managers__title,
+  .marketers__title,
+  .designpr__title,
+  .team__title {
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 20px;
@@ -802,7 +831,7 @@ a {
 }
 
 @media (max-width: 409px) {
-  .top__btn{
+  .top__btn {
     margin-bottom: 20px;
   }
 }
