@@ -13,7 +13,7 @@ a {
   color: inherit;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -36,6 +36,37 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
+  background-position: center;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/header-decor.svg);
+  background-size: cover;
+  height: 456px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateY(35%);
+  z-index: 2;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/header-decor.svg);
+  background-size: cover;
+  height: 456px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateY(80%) rotate(180deg);
+  z-index: 3;
 }
 
 .header__top {
@@ -71,26 +102,73 @@ body {
   color: #262C27;
 }
 
+.header__content {
+  min-height: calc(100vh - 161px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  position: relative;
+}
+
+.header__content-box {
+  max-width: 550px;
+  text-align: center;
+  margin-right: 30px;
+  color: #FFFFFF;
+}
+
 .header__title {
   font-size: 64px;
   line-height: 71px;
-  color: #FFFFFF;
-
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .header__text {
   font-size: 24px;
   line-height: 27px;
-  color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 .header__decor-text {
+  position: absolute;
+  bottom: 25px;
+  color: #0093A1;
+  z-index: 4;
+}
+
+.header__decor-text--one {
+  z-index: 1;
+  right: 85px;
+  bottom: 145px;
+}
+
+.header__decor-text--two {
+  z-index: 4;
+  left: 265px;
+}
+
+.header__decor-text--one,
+.header__decor-text--two {
+  font-family: 'Comfortaa', cursive;
   font-weight: 400;
   font-size: 130px;
   line-height: 145px;
-  color: #0093A1;
+  opacity: 0.3;
 }
 
-.header__decor-textop {
-  opacity: 0.3;
+.header__decor-text--three {
+  height: 78px;
+  right: 85px;
+  z-index: 4;
+  max-width: 360px;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  color: #0093A1;
+  text-align: center;
 }
