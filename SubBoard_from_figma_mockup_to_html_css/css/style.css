@@ -17,6 +17,12 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -245,4 +251,36 @@ header::after {
   padding-top: 12px;
   display: block;
   color: #FFFFFF;
+}
+
+.info__specs {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  padding-bottom: 50px;
+  color: #FFFFFF;
+}
+
+.info__specs-title {
+  font-family: 'Comfortaa', cursive;
+  width: 250px;
+  font-size: 60px;
+  line-height: 67px;
+}
+
+.info__specs-list {
+  width: 660px;
+  padding: 30px 0;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  font-weight: 700;
+}
+
+.info__specs-item {
+  display: flex;
+  gap: 25px;
+}
+
+.info__specs-caption {
+  width: 190px;
 }
