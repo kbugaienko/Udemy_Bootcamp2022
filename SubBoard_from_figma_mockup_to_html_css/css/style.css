@@ -186,6 +186,7 @@ header::after {
   background-size: cover;
   background-position: center;
   position: relative;
+  margin-bottom: 150px;
 }
 
 .info::before {
@@ -283,4 +284,89 @@ header::after {
 
 .info__specs-caption {
   width: 190px;
+}
+
+.suppocket {
+  margin-bottom: 150px;
+}
+
+.suppocket__inner {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.suppocket__content {
+  width: 510px;
+  position: relative;
+}
+
+.suppocket__list {
+  margin-bottom: 25px;
+}
+
+.suppocket__item {
+  margin-bottom: 25px;
+  width: 292px;
+}
+
+.suppocket__title {
+  font-family: 'Comfortaa', cursive;
+  font-size: 60px;
+  line-height: 67px;
+  color: #0093A1;
+  margin-bottom: 50px;
+}
+
+.suppocket__item-title--color {
+  color: #0093A1;
+}
+
+.suppocket__item-title {
+  font-weight: 700;
+  margin-bottom: 5px;
+  transition: color .3s;
+}
+
+.suppocket__item:hover .suppocket__item-title {
+  color: #0093A1;
+}
+
+.suppocket__price {
+  position: absolute;
+  width: 201px;
+  height: 199px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  right: 0;
+  bottom: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/star-price.svg);
+}
+
+.suppocket__btn {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+  color: #0093A1;
+  padding: 18px;
+  max-width: 510px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #0093A1;
+  background-color: transparent;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.suppocket__btn:hover {
+  color: #262C27;
+  background-color: #B9C400;
+  border-color: #B9C400;
 }
