@@ -31,6 +31,14 @@ body {
   color: #262C27;
 }
 
+.title {
+  text-transform: uppercase;
+  font-family: 'Comfortaa', cursive;
+  font-size: 60px;
+  line-height: 67px;
+  font-weight: 400;
+}
+
 .container {
   max-width: 1230px;
   margin: 0 auto;
@@ -235,7 +243,6 @@ header::after {
 }
 
 .info__btn {
-  position: absolute;
   bottom: 0;
   right: 0;
 }
@@ -246,6 +253,7 @@ header::after {
   text-align: center;
   cursor: pointer;
   background-color: transparent;
+  position: absolute;
 }
 
 .popup-btn span {
@@ -263,10 +271,7 @@ header::after {
 }
 
 .info__specs-title {
-  font-family: 'Comfortaa', cursive;
   width: 250px;
-  font-size: 60px;
-  line-height: 67px;
 }
 
 .info__specs-list {
@@ -287,7 +292,7 @@ header::after {
 }
 
 .suppocket {
-  margin-bottom: 150px;
+  margin-bottom: 150px 0 0 ;
 }
 
 .suppocket__inner {
@@ -311,9 +316,6 @@ header::after {
 }
 
 .suppocket__title {
-  font-family: 'Comfortaa', cursive;
-  font-size: 60px;
-  line-height: 67px;
   color: #0093A1;
   margin-bottom: 50px;
 }
@@ -369,4 +371,52 @@ header::after {
   color: #262C27;
   background-color: #B9C400;
   border-color: #B9C400;
+}
+
+.technology {
+  margin-bottom: 150px;
+}
+
+.technology__top {
+  background-image: url(../images/technology-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.technology__top-inner {
+  position: relative;
+  min-height: 110vh;
+}
+
+.technology__btn {
+  right: 350px;
+  top: 50vh;
+}
+
+.technology__top-box {
+  position: absolute;
+  left: 0;
+  bottom: 70px;
+}
+
+.technology__title {
+  max-width: 470px;
+  margin-top: 185px;
+  margin-bottom: 62px;
+  color: #262C27;
+}
+
+.technology__list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.technology__list-item {
+  padding-left: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262C27;
+  margin-bottom: 15px;
 }
