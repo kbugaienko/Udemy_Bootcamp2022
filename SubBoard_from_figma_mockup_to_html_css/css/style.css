@@ -442,10 +442,21 @@ header::after {
   gap: 30px 24px;
   grid-template-columns: 481px 208px;
   grid-template-rows: 432px 300px;
-  border: 3px solid #262C27;
-  border-radius: 200px 0px 300px;
   padding: 72px 32px 52px 31px;
   transform: translateY(-50%);
+  position: relative;
+}
+
+.gallery-small::before {
+  content: "";
+  position: absolute;
+  border: 3px solid #262C27;
+  border-radius: 200px 0px 300px;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .gallery-small__img--1 {
