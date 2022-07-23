@@ -429,11 +429,10 @@ header::after {
   display: flex;
   gap: 68px;
   margin-top: 115px;
-  margin-bottom: 150px;
 }
 
 .gallery__text {
-  width: 350px;
+  flex-basis: 350px;
   line-height: 120%;
 }
 
@@ -442,9 +441,10 @@ header::after {
   gap: 30px 24px;
   grid-template-columns: 481px 208px;
   grid-template-rows: 432px 300px;
-  padding: 72px 32px 52px 31px;
-  transform: translateY(-50%);
+  padding: 72px 32px 52px;
   position: relative;
+  margin-top: -40%;
+  margin-bottom: 150px;
 }
 
 .gallery-small::before {
