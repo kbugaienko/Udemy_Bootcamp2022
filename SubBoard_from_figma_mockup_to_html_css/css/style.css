@@ -509,3 +509,95 @@ header::after {
   grid-column: 2/-1;
   border-radius: 0px 0px 0px 400px;
 }
+
+.footer {
+  background: #262C27;
+}
+
+.footer__inner {
+  margin-bottom: 83px;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  margin-top: 87px;
+  width: 370px;
+  height: 81px;
+}
+
+.footer__form {
+  margin-top: 100px;
+  max-width: 500px;
+}
+
+.footer__form-input {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+  padding: 10 10px;
+}
+
+.footer__form-name {
+  margin-bottom: 67px;
+}
+
+.footer__form-input::placeholder {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  opacity: 0.2;
+  color: #FFFFFF;
+}
+
+.footer__btn {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000000;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 66px;
+  background-color: #FFFFFF;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.footer__title {
+  color: #FFFFFF;
+  margin-bottom: 37px;
+}
+
+.footer__social-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+  margin-top: 98px;
+}
+
+.footer__gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 52px;
+  margin-bottom: 50px;
+}
+
+.footer__menu-list {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 83px;
+}
