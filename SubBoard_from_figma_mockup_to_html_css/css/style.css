@@ -115,10 +115,23 @@ header::after {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.header__btn:hover {
+  background-color: #B9C400;
+  border: none;
+  color: #000000;
 }
 
 .header__phone {
   color: #262C27;
+  transition: all .3s;
+}
+
+.header__phone:hover {
+  font-size: 24px;
+  line-height: 27px;
 }
 
 .header__content {
@@ -251,6 +264,26 @@ header::after {
   right: 0;
 }
 
+.info__btn path,
+.technology__btn path {
+  transition: fill .3s ease;
+}
+
+.info__btn:hover path,
+.technology__btn:hover path {
+  fill: #B9C400;
+}
+
+.info__btn circle,
+.technology__btn circle {
+  transition: stroke .3s ease;
+}
+
+.info__btn:hover circle,
+.technology__btn:hover circle {
+  stroke: #B9C400;
+}
+
 .popup-btn {
   margin-top: 82px;
   border: none;
@@ -351,6 +384,14 @@ header::after {
   justify-content: center;
   align-items: center;
   background-image: url(../images/star-price.svg);
+}
+
+.suppocket__price:hover {
+  width: 250px;
+  height: 248px;
+  font-size: 40px;
+  line-height: 48px;
+  background-image: url(../images/star-price-big.svg);
 }
 
 .suppocket__btn {
@@ -527,6 +568,14 @@ header::after {
   margin-top: 87px;
   width: 370px;
   height: 81px;
+}
+
+.footer__logo path {
+  transition: fill .3s;
+}
+
+.footer__logo:hover path {
+  fill: #0093A1;
 }
 
 .footer__form {
