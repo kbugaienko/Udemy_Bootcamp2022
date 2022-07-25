@@ -63,7 +63,7 @@ header::before {
   position: absolute;
   background-image: url(../images/header-decor.svg);
   background-size: cover;
-  height: 456px;
+  height: 300px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -78,7 +78,7 @@ header::after {
   position: absolute;
   background-image: url(../images/header-decor.svg);
   background-size: cover;
-  height: 456px;
+  height: 300px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -217,7 +217,7 @@ header::after {
 .info::before {
   content: "";
   position: absolute;
-  height: 130px;
+  height: 145px;
   background-color: #262C27;
   top: 0;
   left: 0;
@@ -663,6 +663,31 @@ header::after {
   }
 }
 
+@media (max-width: 1000px) {
+  .info__top {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .info__top-text {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .info__top-text--two {
+    padding-bottom: 25px;
+  }
+  .info__btn {
+    margin-top: 0;
+  }
+  .info__top-img {
+    display: block;
+    margin: 0 auto;
+    width: 227px;
+  }
+  .info__specs {
+    display: block;
+  }
+}
+
 @media (max-width: 720px) {
   .header__top {
     flex-wrap: wrap;
@@ -674,7 +699,17 @@ header::after {
     width: 70%;
   }
 }
- 
+
+@media (max-width: 675px) {
+  .info__specs-list {
+    width: 100%;
+  }
+  .info__specs-item {
+    display: block;
+    padding-bottom: 10px;
+  }
+}
+
 @media (max-width: 414px) {
   .header__decor-text {
     display: none;
