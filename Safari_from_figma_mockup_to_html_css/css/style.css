@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-  max-width: 1120px;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -94,4 +94,58 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
+}
+
+.header__inner {
+  position: relative;
+}
+
+.header__content {
+  height: 87vh;
+}
+
+.header__content-title {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 117px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.header__content-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 422px;
+}
+
+.header__content-box {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.header__content-btn {
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 19px 54px;
+  background-color: #886239;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 74px;
+}
+
+.header__arrow-btn {
+  border: none;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: transparent;
+  margin-bottom: 15px;
 }
