@@ -149,3 +149,29 @@ body {
   background-color: transparent;
   margin-bottom: 15px;
 }
+
+.direction {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.direction__inner {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.direction__item {
+  border: 1px solid #D9D9DE;
+  border-top: none;
+}
+
+.direction__img {
+  display: block;
+}
+
+.direction__title {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 12px 19px 19px;
+}
