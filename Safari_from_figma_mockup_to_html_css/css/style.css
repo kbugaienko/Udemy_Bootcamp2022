@@ -212,3 +212,64 @@ body {
   width: 85px;
   height: 85px;
 }
+
+.offers__items {
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  padding-bottom: 82px;
+  border-bottom: 1px solid #D9D9DE;
+  margin-bottom: 100px;
+}
+
+.offers__title-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.offers__link {
+  padding: 16px 24px 19px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 256px;
+  line-height:21px;
+}
+
+.offers__title {
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.offers__title--big {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 15px;
+}
+
+.offers__country,
+.offers__duration  {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.offers__price {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: auto;
+}
+
+.offers__link:nth-child(3),
+.offers__link:nth-child(6) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
