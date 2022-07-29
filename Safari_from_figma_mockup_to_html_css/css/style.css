@@ -175,3 +175,40 @@ body {
   line-height: 19px;
   padding: 12px 19px 19px;
 }
+
+.maindirections {
+  background-image: url(../images/maindirections-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #886239;
+  height: 582px;
+  color: #FFFFFF;
+  margin-bottom: 100px;
+}
+
+.maindirections__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  padding-top: 32px;
+  margin-bottom: 52px;
+}
+
+.maindirections__box-title {
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 15px;
+}
+
+.maindirections__box {
+  display: grid;
+  gap: 56px 74px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.maindirections__box-img {
+  width: 85px;
+  height: 85px;
+}
