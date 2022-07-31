@@ -285,3 +285,43 @@ body {
   line-height: 47px;
   margin-bottom: 46px;
 }
+
+.tours {
+  margin-bottom: 100px;
+}
+
+.tours__inner {
+  display: grid;
+  grid-template-columns: 448px 640px;
+  gap: 32px;
+}
+
+.tours__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  padding-bottom: 25px;
+}
+
+.tours__descr {
+  max-width: 448px;
+  line-height: 25px;
+  padding-bottom: 34px;
+}
+
+.tours__link {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #C4C4C4;
+}
+
+.tours__popup {
+  background-image: url(../images/video-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
