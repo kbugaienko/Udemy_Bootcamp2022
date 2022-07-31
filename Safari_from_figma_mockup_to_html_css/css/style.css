@@ -273,3 +273,15 @@ body {
   grid-column: span 2;
   grid-row: span 2;
 }
+
+.map {
+  margin-bottom: 100px;
+}
+
+.map__title {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  line-height: 47px;
+  margin-bottom: 46px;
+}
