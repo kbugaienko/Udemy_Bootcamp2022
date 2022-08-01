@@ -337,17 +337,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
+  padding-right: 160px;
 }
 
-.photogallery__top-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 55px;
-}
-
-.navigation__slider-left {
-  margin-right: 16px;
+.photogallery__slider {
+  padding-bottom: 105px;
 }
 
 .photogallery__title {
@@ -360,4 +355,23 @@ body {
   font-size: 16px;
   line-height: 19px;
   text-decoration-line: underline;
+}
+
+.photogallery__item-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px;
+}
+
+.slick-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: -85px;
+  right: 0;
+}
+
+.slick-prev {
+  right: 60px;
 }
