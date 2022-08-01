@@ -325,3 +325,39 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.photogallery {
+  background-color: #886239;
+  margin-bottom: 100px;
+  color: #FFFFFF;
+}
+
+.photogallery__top {
+  padding-top: 49px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photogallery__top-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+}
+
+.navigation__slider-left {
+  margin-right: 16px;
+}
+
+.photogallery__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+}
+
+.photogallery__link {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+}
