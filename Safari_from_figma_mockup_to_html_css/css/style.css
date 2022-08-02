@@ -530,3 +530,52 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.footer {
+  background-color: #1F1E1E;
+  padding: 77px 0 81px 0;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.footer__logo {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.logo-img {
+  margin: 0 auto;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 830px;
+  margin: 0 auto;
+}
+
+.footer__content-title {
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.footer__link {
+  text-decoration-line: underline;
+}
+
+.footer__address {
+  width: 165px;
+}
+
+.footer__copy,
+.footer__address-text,
+.footer__phone,
+.footer__email {
+  opacity: 0.8;
+  margin-bottom: 3px;
+}
+
+.footer__email {
+  display: block;
+}
