@@ -23,4 +23,7 @@ $(function(){
 			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
 		},
 	});
+	$('.menu__btn').on('click', function(){
+		$('.header__menu-list').toggleClass('header__menu-list--active');
+	});
 });
