@@ -631,6 +631,9 @@ body {
   .offers__link {
     min-height: 320px;
   }
+  .map__iframe {
+    height: 400px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -712,7 +715,8 @@ body {
   .direction__img {
     width: 100%;
   }
-  .maindirections {
+  .maindirections,
+  .map {
     margin-bottom: 50px;
   }
   .maindirections__box {
