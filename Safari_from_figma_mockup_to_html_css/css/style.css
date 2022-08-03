@@ -183,7 +183,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #886239;
-  height: 582px;
   color: #FFFFFF;
   margin-bottom: 100px;
 }
@@ -207,6 +206,7 @@ body {
   display: grid;
   gap: 56px 74px;
   grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 51px;
 }
 
 .maindirections__box-img {
@@ -595,6 +595,13 @@ body {
   }
 }
 
+@media (max-width: 950px) {
+  .maindirections__box {
+    gap: 40px 50px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (max-width: 800px) {
   .header__top-text {
     display: none;
@@ -682,6 +689,20 @@ body {
   }
   .direction__img {
     width: 100%;
+  }
+  .maindirections {
+    margin-bottom: 50px;
+  }
+  .maindirections__box {
+    gap: 25px 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 460px) {
+  .maindirections__title {
+    font-size: 30px;
+    margin-bottom: 40px;
   }
 }
 
