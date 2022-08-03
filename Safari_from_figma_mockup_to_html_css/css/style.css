@@ -673,6 +673,15 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0px;
   }
+  .booking__input {
+    width: 100%;
+  }
+  .booking__label {
+    width: 100%;
+    margin-left: 50px;
+    margin-top: -162px;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -790,13 +799,17 @@ body {
   .info__descr {
     padding-bottom: 10px;
   }
+  .booking {
+    padding: 50px 0;
+  }
 }
 
 @media (max-width: 460px) {
   .maindirections__title,
   .offers__title-name,
   .map__title,
-  .photogallery__title {
+  .photogallery__title,
+  .booking__title {
     font-size: 30px;
     margin-bottom: 40px;
   }
