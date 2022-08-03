@@ -704,6 +704,12 @@ body {
     font-size: 30px;
     margin-bottom: 40px;
   }
+  .direction__inner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .maindirections__box {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (max-width: 320px) {
