@@ -14,7 +14,7 @@ const INITIAL_EXPENSES = [
     id: "e2",
     title: "Toilet paper",
     price: 299.99,
-    date: new Date(2021, 3, 31),
+    date: new Date(2022, 3, 31),
   },
   {
     id: "e3",
