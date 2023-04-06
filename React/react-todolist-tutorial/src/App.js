@@ -3,6 +3,10 @@ import React from "react";
 import Todo from "./components/Todo";
 
 const App = props => {
+  const taskList = props.tasks.map((task) => (
+    <Todo id={task.id} name={task.name} completed={task.completed} />
+  ));
+
   return (
     <div className="todoapp stack-large">
       <h1>TodoMatic</h1>
@@ -43,9 +47,10 @@ const App = props => {
       <h2 id="list-heading">3 tasks remaining</h2>
       <ul className="todo-list stack-large stack-exception"
         aria-labelledby="list-heading">
-        <Todo name='Eat' completed={true} id='todo-0' />
+        {taskList}
+        {/* <Todo name='Eat' completed={true} id='todo-0' />
         <Todo name='Sleep' completed={false} id='todo-1' />
-        <Todo name='Repeat' completed={false} id='todo-2' />
+        <Todo name='Repeat' completed={false} id='todo-2' /> */}
       </ul>
     </div>
   );
