@@ -43,9 +43,9 @@ const App = props => {
       <h2 id="list-heading">3 tasks remaining</h2>
       <ul className="todo-list stack-large stack-exception"
         aria-labelledby="list-heading">
-        <Todo name='Eat' />
-        <Todo name='Sleep' />
-        <Todo name='Repeat' />
+        <Todo name='Eat' completed={true} id='todo-0' />
+        <Todo name='Sleep' completed={false} id='todo-1' />
+        <Todo name='Repeat' completed={false} id='todo-2' />
       </ul>
     </div>
   );
