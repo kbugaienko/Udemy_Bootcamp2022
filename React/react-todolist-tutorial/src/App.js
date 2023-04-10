@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { nanoid } from "nanoid";
+
 import Todo from "./components/Todo";
 import Form from "./components/Form";
 import FilterButton from "./components/FilterButton";
@@ -13,7 +15,7 @@ const App = props => {
 
   const addTask = name => {
     const newTask = {
-      id: 'id',
+      id: `todo-${nanoid()}`,
       name,
       completed: false
     };
