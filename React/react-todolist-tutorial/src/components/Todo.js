@@ -5,7 +5,7 @@ const Todo = (props) => {
   const [newName, setNewName] = useState('');
 
   const handleChange = e => {
-    console.log(e.target.value);
+    setNewName(e.target.value);
   };
 
   const handlerSubmit = e => {
