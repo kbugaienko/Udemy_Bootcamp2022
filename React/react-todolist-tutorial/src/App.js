@@ -23,7 +23,8 @@ const App = (props) => {
   };
 
   const deleteTask = (id) => {
-    console.log(id);
+    const remainingTasks = tasks.filter((task) => id !== task.id);
+    setTasks(remainingTasks);
   };
 
   const taskList = tasks.map((task) => (
