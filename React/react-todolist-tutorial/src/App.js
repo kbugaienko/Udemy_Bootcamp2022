@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 
 import { nanoid } from "nanoid";
 
@@ -16,9 +16,20 @@ console.log('filter map: ',FILTER_MAP);
 const FILTER_NAMES = Object.keys(FILTER_MAP);
 console.log('filter names: ', FILTER_NAMES);
 
+// Getting previous state
+const usePrevious = value => {
+  const ref = useRef();
+  useEffect(() => {
+    ref.current = value;
+  });
+  return ref.current;
+};
+
 const App = (props) => {
   const [tasks, setTasks] = useState(props.tasks);
   const [filter, setFilter] = useState('All');
+
+  const listHeadingRef = useRef(null);
 
   const toggleTaskCompleted = (id) => {
     const updatedTasks = tasks.map((task) => {
@@ -84,6 +95,14 @@ const App = (props) => {
 
   const tasksNoun = taskList.length !== 1 ? "tasks" : "task";
   const headingText = `${taskList.length} ${tasksNoun} remaining`;
+  const prevTaskLength = usePrevious(tasks.length);
+
+  // Using useEffect() to control our heading focus
+  useEffect(() => {
+    if (tasks.length - prevTaskLength === -1) {
+      listHeadingRef.current.focus();
+    }
+  }, [tasks.length, prevTaskLength]);
 
   return (
     <div className="todoapp stack-large">
@@ -92,7 +111,7 @@ const App = (props) => {
       <div className="filters btn-group stack-exception">
         {filterList}
       </div>
-      <h2 id="list-heading">{headingText}</h2>
+      <h2 id="list-heading" tabIndex='-1' ref={listHeadingRef}>{headingText}</h2>
       <ul
         className="todo-list stack-large stack-exception"
         aria-labelledby="list-heading"
