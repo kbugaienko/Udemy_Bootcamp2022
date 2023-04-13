@@ -1,12 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-
-const usePrevious = (value) => {
-  const ref = useRef();
-  useEffect(() => {
-    ref.current = value;
-  });
-  return ref.current;
-};
+import usePrevious from "./UsePrevious";
 
 const Todo = (props) => {
   const [isEditing, setEditing] = useState();
@@ -76,6 +69,8 @@ const Todo = (props) => {
       </div>
     </div>
   );
+
+  usePrevious();
 
   useEffect(() => {
     // console.log('side effect');

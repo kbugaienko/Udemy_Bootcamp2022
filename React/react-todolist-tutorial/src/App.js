@@ -5,6 +5,7 @@ import { nanoid } from "nanoid";
 import Todo from "./components/Todo";
 import Form from "./components/Form";
 import FilterButton from "./components/FilterButton";
+import usePrevious from "./components/UsePrevious";
 
 const FILTER_MAP = {
   All: () => true,
@@ -15,15 +16,6 @@ console.log('filter map: ',FILTER_MAP);
 
 const FILTER_NAMES = Object.keys(FILTER_MAP);
 console.log('filter names: ', FILTER_NAMES);
-
-// Getting previous state
-const usePrevious = value => {
-  const ref = useRef();
-  useEffect(() => {
-    ref.current = value;
-  });
-  return ref.current;
-};
 
 const App = (props) => {
   const [tasks, setTasks] = useState(props.tasks);
@@ -96,6 +88,8 @@ const App = (props) => {
   const tasksNoun = taskList.length !== 1 ? "tasks" : "task";
   const headingText = `${taskList.length} ${tasksNoun} remaining`;
   const prevTaskLength = usePrevious(tasks.length);
+
+  usePrevious();
 
   // Using useEffect() to control our heading focus
   useEffect(() => {
