@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Yeseva One', cursive; */
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1160px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff8f3;
+}
+
+.header__inner {
+  padding-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list {
+  display: flex;
+  gap: 20px;
+}
+
+.menu__list-item {
+  text-transform: uppercase;
+}
+
+.phone {
+  position: relative;
+}
+
+.phone::before {
+  content: '';
+  position: absolute;
+  background-image: url(../images/phone.svg);
+  width: 20px;
+  height: 20px;
+  left: -23px;
+  top: -3px;
+}
