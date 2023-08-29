@@ -94,6 +94,7 @@ a {
 
 .main {
   background-color: #FFF8F3;
+  overflow-x: clip;
 }
 
 .top {
@@ -173,6 +174,21 @@ a {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .top__content {
+    width: 333px;
+  }
+  .top__title {
+    font-size: 29px;
+  }
+  .top__text {
+    margin-bottom: 30px;
+  }
+  .top__img {
+    left: 325px;
+  }
+  .top__img-l {
+    width: 655px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -208,6 +224,23 @@ a {
     height: 14px;
     left: -16px;
     top: -2px;
+  }
+  .top__content {
+    width: 230px;
+  }
+  .top__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .top__text {
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+  .top__content {
+    padding: 100px 0 124px;
+  }
+  .top__img {
+    left: 175px;
   }
 }
 
