@@ -236,11 +236,12 @@ a {
 
 @media (max-width: 1000px) {
   .container {
-    padding-left: 20px;
+    padding-left: 21px;
     padding-right: 20px;
   }
   .top__content {
     width: 333px;
+    padding: 163px 0 0;
   }
   .top__title {
     font-size: 29px;
@@ -253,6 +254,16 @@ a {
   }
   .top__img-l {
     width: 655px;
+  }
+  .about {
+    padding: 50px 0;
+  }
+  .about__list {
+    padding-left: 20px;
+    padding-bottom: 51px;
+  }
+  .about__content {
+    min-width: 300px;
   }
 }
 
