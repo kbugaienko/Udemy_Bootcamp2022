@@ -470,4 +470,25 @@ a {
     width: 203px;
     padding: 20px 0 0;
   }
+  .about {
+    padding: 25px 0 10px 0;
+  }
+  .about__content {
+    min-width: 233px;
+  }
+  .title {
+    margin-bottom: 10px;
+  }
+  .about__text {
+    font-size: 8px;
+  }
+  .about__list {
+    padding-left: 12px;margin-left: 12px;
+    gap: 0;
+    padding-bottom: 32px;
+  }
+  .about__item-img--2,
+  .about__item-img--3 {
+    display: none;
+  }
 }
