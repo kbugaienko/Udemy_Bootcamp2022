@@ -300,7 +300,7 @@ a {
 
 @media (max-width:480px) {
   .top {
-    padding-bottom: 50px;
+    padding: 30px 0 50px;
   }
   .top__img-l {
     width: 309px;
@@ -322,5 +322,25 @@ a {
   .top__buy {
     font-size: 10.62px;
     padding: 13.6px 41px;
+  }
+}
+
+@media (max-width: 360px) {
+  .top__img-l {
+    width: 185px;
+  }
+  .top__img {
+    left: auto;
+    right: 0;
+  }
+  .top__title {
+    font-size: 18px;
+  }
+  .top__text {
+    font-size: 10px;
+  }
+  .top__content {
+    width: 203px;
+    padding: 20px 0 0;
   }
 }
