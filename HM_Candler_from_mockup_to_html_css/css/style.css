@@ -43,6 +43,7 @@ a {
   margin: 0 auto;
 }
 
+/* Header */
 .menu__btn {
   display: none;
   width: 30px;
@@ -97,6 +98,7 @@ a {
   overflow-x: clip;
 }
 
+/* Section top */
 .top {
   padding-top: 30px;
   padding-bottom: 150px;
@@ -137,12 +139,75 @@ a {
   left: 256px;
 }
 
+/* Section About */
+
+.about {
+  background-color: #A5978E;
+  padding: 50px;
+}
+
+.about__inner {
+  display: flex;
+  align-items: center;
+}
+
+.about__content {
+  min-width: 370px;
+}
+
+.about__title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 40px;
+  color: #FAFAFA;
+  margin-bottom: 15px;
+}
+
+.about__text {
+  color: #FAFAFA;
+  margin-bottom: 15px;
+}
+
+.about__list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-left: 110px;
+  padding-bottom: 48px;
+  position: relative;
+}
+
+.about__list::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url(../images/about-decor.png);
+  width: 22px;
+  height: 30px;
+}
+
+.about__list::after {
+  content: '';
+  position: absolute;
+  left: 22px;
+  bottom: 13px;
+  background-color: #7B6152;
+  width: 1000%;
+  height: 1px;
+}
+
+.about__item-img {
+  margin-bottom: 10px;
+}
+
+.about__item-text {
+  color: #FAFAFA;
+  font-size: 11px;
+}
 
 
 
-
-
-
+/* Footer */
 .footer {
   padding-top: 40px;
   padding-bottom: 35px;
