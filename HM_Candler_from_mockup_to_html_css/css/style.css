@@ -428,6 +428,28 @@ a {
     font-size: 10.62px;
     padding: 13.6px 41px;
   }
+  .about__content {
+    min-width: 171px;
+  }
+  .about__list {
+    gap: 0 5px;
+    align-items: flex-end;
+    margin-left: 0px;
+    margin-bottom: 5px;
+  }
+  .about__inner {
+    align-items: flex-end;
+  }
+  .about__item-text {
+    display: none;
+  }
+  .about__item-img--1,
+  .about__item-img--3 {
+    width: 80px;
+  }
+  .about__item-img--2 {
+    width: 140px;
+  }
 }
 
 @media (max-width: 360px) {
