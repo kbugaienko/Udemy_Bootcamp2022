@@ -334,6 +334,13 @@ a {
   .about__content {
     min-width: 300px;
   }
+  .section__inner {
+    grid-template-columns: 290px auto;
+    gap: 0 10px;
+  }
+  .goods__content {
+    gap: 67px;
+  }
 }
 
 @media (max-width: 900px) {
