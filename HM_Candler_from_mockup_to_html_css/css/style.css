@@ -43,6 +43,24 @@ a {
   margin: 0 auto;
 }
 
+.section {
+  padding-bottom: 150px;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.button {
+  font-family: 'Comfortaa', cursive;
+  font-size: 14px;
+  font-weight: 600;
+  color: #272727;
+  padding: 18px 54px;
+  background-color: #FFBD59;
+}
+
 /* Header */
 .menu__btn {
   display: none;
@@ -144,6 +162,7 @@ a {
 .about {
   background-color: #A5978E;
   padding: 50px 0;
+  margin-bottom: 150px;
 }
 
 .about__inner {
@@ -157,9 +176,7 @@ a {
 
 .about__title {
   font-family: 'Yeseva One', cursive;
-  font-size: 40px;
   color: #FAFAFA;
-  margin-bottom: 15px;
 }
 
 .about__text {
@@ -181,7 +198,7 @@ a {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-image: url(../images/about-decor.png);
+  background-image: url(../images/section-decor.png);
   width: 22px;
   height: 30px;
 }
@@ -205,6 +222,54 @@ a {
   font-size: 11px;
 }
 
+/* Section Goods */
+
+.section__inner {
+  display: grid;
+  grid-template-columns: 370px auto;
+}
+
+.section__content-descr {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.goods__title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.goods__content {
+  gap: 50px 90px;
+}
+
+.goods__item {
+  width: 290px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.goods__item-img {
+  margin-bottom: 8px;
+}
+
+.goods__item-price,
+.goods__item-title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 16px;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+.goods__item-title {
+  margin-bottom: 16px;
+}
+
+.goods__item-text {
+  font-size: 12px;
+  margin-bottom: 27px;
+}
 
 
 /* Footer */
