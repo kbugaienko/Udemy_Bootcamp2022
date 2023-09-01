@@ -275,6 +275,30 @@ a {
   margin-bottom: 27px;
 }
 
+/* Section Steps */
+
+.steps__list {
+  gap: 70px 25px;
+}
+
+.steps__item {
+  display: flex;
+  gap: 40px;
+}
+
+.steps__item-text {
+  flex-basis: 174px;
+}
+
+/* .steps__item--odd {
+  grid-template-columns: 174px 158.74px;
+  gap: 38.4px;
+}
+
+.steps__item--even {
+  grid-template-columns: 160px 171px;
+  gap: 40.1px;
+} */
 
 /* Footer */
 .footer {
