@@ -617,4 +617,35 @@ a {
   .about__item-img--3 {
     display: none;
   }
+  .section__descr {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .goods__title {
+    margin-bottom: 10px;
+  }
+  .section__text {
+    width: 235px;
+  }
+  .goods__item-price, .goods__item-title {
+    font-size: 10px;
+    margin-bottom: 7px;
+  }
+  .goods__item-text {
+    font-size: 6px;
+    margin-bottom: 16.5px;
+  }
+  .button {
+    font-size: 8px;
+    padding: 10px 22px;
+  }
+  .goods__item {
+    width: 150px;
+  }
+  .goods__content {
+    gap: 41px 7px;
+  }
+  .goods__item-img {
+    width: 150px;
+  }
 }
