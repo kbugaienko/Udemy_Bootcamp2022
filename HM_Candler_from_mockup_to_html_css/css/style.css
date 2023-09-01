@@ -484,6 +484,13 @@ a {
   .menu__header {
     order:1;
   }
+  .section__inner {
+    display: block;
+  }
+  .section__descr {
+    text-align: center;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width:500px) {
@@ -534,6 +541,9 @@ a {
     font-size: 10.62px;
     padding: 13.6px 41px;
   }
+  .about {
+    margin-bottom: 50px;
+  }
   .about__content {
     min-width: 171px;
   }
@@ -555,6 +565,16 @@ a {
   }
   .about__item-img--2 {
     width: 140px;
+  }
+  .section {
+    padding-bottom: 50px;
+  }
+  .section__text {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .section__content-descr {
+    padding-bottom: 62px;
   }
 }
 
