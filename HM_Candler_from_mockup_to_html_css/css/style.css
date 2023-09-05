@@ -580,10 +580,7 @@ a {
     padding-bottom: 50px;
   }
   .steps__list {
-    padding: 0 20px;
-  }
-  .steps__item {
-    min-width: 200px;
+    margin: 0 10px;
   }
 }
 
@@ -669,6 +666,28 @@ a {
   }
   .section__content-descr {
     padding-bottom: 62px;
+  }
+  .steps__list {
+    gap: 25px 40px;
+  }
+  .steps__item-text {
+    flex-basis: 92px;
+  }
+}
+
+@media (max-width: 407px) {
+  .steps__item-text {
+    flex-basis: 72px;
+    font-size: 6px;
+  }
+  .steps__item::before {
+    font-size: 12px;
+  }
+  .steps__item {
+    gap: 0 16px;
+  }
+  .steps__list {
+    gap: 25px 20px;
   }
 }
 
