@@ -576,6 +576,15 @@ a {
     text-align: center;
     margin-bottom: 30px;
   }
+  .section {
+    padding-bottom: 50px;
+  }
+  .steps__list {
+    padding: 0 20px;
+  }
+  .steps__item {
+    min-width: 200px;
+  }
 }
 
 @media (max-width:500px) {
