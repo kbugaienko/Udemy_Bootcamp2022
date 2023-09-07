@@ -763,6 +763,33 @@ a {
   }
 }
 
+@media (max-width: 463px) {
+  .courses__content {
+    grid-template-columns: auto;
+  }
+  .courses__item {
+    margin-bottom: 30px;
+  }
+  .courses__item-img,
+  .courses__item {
+    width: 255px;
+  }
+  .course__title {
+    padding: 8px;
+    left: -1px;
+  }
+  .course__duration {
+    padding: 7px 7px;
+    left: -1px;
+    top: 51%;
+  }
+  .course__price {
+    padding: 11px 5px;
+    right: -14px;
+    bottom: 15px;
+  }
+}
+
 @media (max-width: 407px) {
   .steps__item-text {
     flex-basis: 72px;
