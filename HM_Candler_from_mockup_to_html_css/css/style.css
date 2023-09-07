@@ -374,6 +374,7 @@ a {
   color: #FFF;
   background-color: #A5978E;
   padding: 80px 0 60px;
+  margin-bottom: 150px;
 }
 
 .team__content {
@@ -490,6 +491,9 @@ a {
   .courses__content {
     gap: 0 15px;
   }
+  .team__content {
+    gap: 30px 20px;
+  }
 }
 
 @media (max-width: 980px) {
@@ -523,6 +527,17 @@ a {
     padding-bottom: 60px;
   }
 }
+
+@media (max-width: 910px) {
+  .team__title {
+    font-size: 30px;
+  }
+  .team__item-box {
+    padding: 5px;
+    bottom: 7px;
+  }
+}
+
 @media (max-width: 900px) {
   .footer__inner {
     flex-wrap: wrap;
@@ -662,6 +677,21 @@ a {
   }
   .courses__item {
     width: 222px;
+  }
+  .team__img {
+    width: 142px;
+  }
+  .team__item-name {
+    font-size: 8px;
+  }
+  .team__item-descr {
+    font-size: 7px;
+  }
+  .team__item-box {
+    padding: 9px 6px 10px;
+    width: 109px;
+    bottom: 8px;
+    right: -12px;
   }
 }
 
