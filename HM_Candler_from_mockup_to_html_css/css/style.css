@@ -450,6 +450,9 @@ a {
   .goods__content {
     gap: 67px;
   }
+  .courses__content {
+    gap: 0 15px;
+  }
 }
 
 @media (max-width: 980px) {
@@ -592,6 +595,36 @@ a {
   .goods__item-text {
     font-size: 8px;
     margin-bottom: 18.5px;
+  }
+  .courses__item-title {
+    font-size: 12px;
+    margin-bottom: 4.5px;
+  }
+  .courses__item-text {
+    margin-bottom: 10.5px;
+  }
+  .course_btn {
+    padding: 13px 16px;
+  }
+  .courses__item-img {
+    margin-bottom: 23px;
+    width: 195px;
+  }
+  .course__title {
+    padding: 8px;
+    left: 11px;
+  }
+  .course__duration {
+    padding: 7px 7px;
+    left: 11px;
+  }
+  .course__price {
+    padding: 11px 5px;
+    right: 5px;
+    bottom: 17px;
+  }
+  .courses__item {
+    width: 222px;
   }
 }
 
