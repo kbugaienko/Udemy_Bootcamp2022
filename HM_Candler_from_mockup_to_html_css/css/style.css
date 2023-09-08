@@ -737,6 +737,20 @@ a {
   .steps__list {
     margin: 0 10px;
   }
+  .team__descr {
+    width: 300px;
+    margin: 0 auto 30px auto;
+  }
+  .team__item-box {
+    right: 0;
+  }
+  .team__item {
+    width: 210px;
+  }
+  .team__content {
+    gap: 31px 30px;
+    justify-content: center;
+  }
 }
 
 @media (max-width:500px) {
@@ -827,6 +841,12 @@ a {
   }
   .steps__item-text {
     flex-basis: 92px;
+  }
+  .team__content.section__content-descr {
+    padding-bottom: 0;
+  }
+  .team {
+    padding-top: 50px;
   }
 }
 
