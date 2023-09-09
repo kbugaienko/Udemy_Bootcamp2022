@@ -494,6 +494,9 @@ a {
   .team__content {
     gap: 30px 20px;
   }
+  .team {
+    padding: 50px 0;
+  }
 }
 
 @media (max-width: 980px) {
@@ -847,6 +850,7 @@ a {
   }
   .team {
     padding-top: 50px;
+    margin-bottom: 50px;
   }
 }
 
