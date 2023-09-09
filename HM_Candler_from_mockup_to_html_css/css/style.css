@@ -891,6 +891,22 @@ a {
   .steps__list {
     gap: 25px 20px;
   }
+  .team__content {
+    grid-template-columns: auto;
+  }
+  .team__img {
+    width: 204px;
+  }
+  .team__item-name {
+    font-size: 11px;
+  }
+  .team__item-descr {
+    font-size: 9px;
+  }
+  .team__item-box {
+    width: 130px;
+    right: -65px;
+  }
 }
 
 @media (max-width: 360px) {
