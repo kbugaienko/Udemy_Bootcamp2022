@@ -72,6 +72,7 @@ a {
 }
 
 .title {
+  font-family: 'Yeseva One', cursive;
   font-size: 40px;
   margin-bottom: 15px;
   font-weight: 400;
@@ -498,7 +499,7 @@ a {
 
 .certificates__content .swiper-pagination {
   bottom: 60px;
-  text-align: left;
+  /* text-align: left; */
 }
 
 /* Footer */
@@ -591,6 +592,21 @@ a {
   }
   .team {
     padding: 50px 0;
+  }
+  .swiper-slide {
+    width: 280px;
+  }
+  .certificates__content img {
+    width: 280px;
+  }
+  .certificates__slider {
+    width: 880px;
+  }
+  .feedback__inner {
+    grid-template-columns: 260px auto;
+  }
+  .feedback__slider {
+    width: 690px;
   }
 }
 
