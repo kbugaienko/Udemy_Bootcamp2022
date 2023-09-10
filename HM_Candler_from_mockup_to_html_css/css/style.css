@@ -913,7 +913,8 @@ a {
   .steps__list {
     margin: 0 10px;
   }
-  .team__descr {
+  .team__descr,
+  .section__descr {
     width: 300px;
     margin: 0 auto 30px auto;
   }
@@ -1024,6 +1025,10 @@ a {
   .team {
     padding-top: 50px;
     margin-bottom: 50px;
+  }
+  .certificates__slider {
+    width: 415px;
+    margin: 0 auto;
   }
 }
 
@@ -1155,5 +1160,29 @@ a {
   }
   .goods__item-img {
     width: 150px;
+  }
+  .certificates__slider {
+    width: 200px;
+  }
+  .feedback__item {
+    grid-template-columns: auto;
+    text-align: center;
+  }
+  .feedback__slider {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .feedback__item-img {
+    width: 250px;
+    margin: 0 auto 20px;
+  }
+  .feedback__item-video {
+    width: 250px;
+  }
+  .feedback__item-btn {
+    /* max-width: 100px; */
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
   }
 }
