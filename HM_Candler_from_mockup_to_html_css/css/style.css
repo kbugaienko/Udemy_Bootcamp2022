@@ -612,7 +612,7 @@ a {
 
 @media (max-width: 980px) {
   .section__inner {
-    grid-template-columns: 200px auto;
+    grid-template-columns: 240px auto;
     gap: 0 4px;
   }
   .steps__list {
@@ -640,6 +640,9 @@ a {
   .section__content-descr {
     padding-bottom: 60px;
   }
+  .certificates__title {
+    font-size: 33px;
+  }
 }
 
 @media (max-width: 910px) {
@@ -650,12 +653,6 @@ a {
     padding: 5px;
     bottom: 7px;
   }
-  /* .feedback__slider {
-    width: 690px;
-  }
-  .feedback__title {
-    font-size: 30px;
-  } */
 }
 
 @media (max-width: 900px) {
@@ -676,6 +673,23 @@ a {
   }
   .goods__content {
     gap: 30px 16px;
+  }
+  .certificates__title,
+  .feedback__title {
+    font-size: 27px;
+  }
+  .feedback__slider {
+    width: 600px;
+  }
+  .feedback__item-video,
+  .feedback__item-img {
+    width: 300px;
+  }
+  .certificates__content img {
+    width: 260px;
+  }
+  .certificates__slider {
+    width: 775px;
   }
 }
 
