@@ -502,6 +502,34 @@ a {
   /* text-align: left; */
 }
 
+/* Section Promo */
+
+.promo {
+  background-image: url(../images/promo-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0;
+}
+
+.promo__inner {
+  display: flex;
+  align-items: center;
+}
+
+.promo__text {
+  color: #FFF;
+  padding-left: 56px;
+  max-width: 765px;
+  margin-right: 110px;
+}
+
+.promo__link {
+  display: inline-block;
+  padding: 17px 45px;
+  background-color: #FFBD59;
+}
+
 /* Footer */
 
 .footer {
