@@ -576,6 +576,12 @@ a {
   }
 }
 
+@media (max-width: 1060px) {
+  .promo__text {
+    max-width: 665px;
+  }
+}
+
 @media (max-width: 1045px) {
   .section__inner {
     grid-template-columns: 300px auto;
@@ -639,6 +645,9 @@ a {
   .team {
     padding: 50px 0;
   }
+  .promo__text {
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 980px) {
@@ -673,6 +682,9 @@ a {
   }
   .certificates__title {
     font-size: 33px;
+  }
+  .promo__text {
+    max-width: 565px;
   }
 }
 
@@ -721,6 +733,13 @@ a {
   }
   .certificates__slider {
     width: 775px;
+  }
+}
+
+@media (max-width: 885px) {
+  .promo__text {
+    max-width: 508px;
+    margin-right: 50px;
   }
 }
 
@@ -900,6 +919,10 @@ a {
   .certificates__slider {
     width: 600px;
   }
+  .promo__link {
+    font-size: 12px;
+    padding: 13px 20px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -992,6 +1015,8 @@ a {
   .footer__social {
     gap: 15px;
   }
+  .promo__text {
+    max-width: 303px;
 }
 
 @media (max-width:480px) {
@@ -1071,6 +1096,18 @@ a {
     width: 415px;
     margin: 0 auto;
   }
+  .promo__link {
+    font-size: 8px;
+    padding: 11px 16px;
+  }
+  .promo__text {
+    max-width: 265px;
+    margin-right: 40px;
+  }
+  /* .promo__text {
+    max-width: 220px;
+    margin-right: 40px;
+  } */
 }
 
 @media (max-width: 463px) {
@@ -1243,5 +1280,10 @@ a {
     left: 0;
     bottom: 0;
     margin: 0 auto;
+  }
+  .promo__text {
+    padding-left: 0;
+    max-width: 220px;
+    margin-right: 30px;
   }
 }
