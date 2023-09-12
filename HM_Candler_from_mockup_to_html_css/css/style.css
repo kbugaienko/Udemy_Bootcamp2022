@@ -530,6 +530,57 @@ a {
   background-color: #FFBD59;
 }
 
+/* Section Follow */
+
+.follow {
+  padding: 150px 0 50px;
+}
+
+.follow__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.form {
+  background-color: #FFF;
+  width: 664px;
+  padding: 75px 42px 67px 42px;
+}
+
+.form__title {
+  font-family: 'Yeseva One', cursive;
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+
+.form__input {
+  background-color: #FFF;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  display: block;
+  margin-bottom: 15px;
+  padding: 7px 10px;
+  color: #000;
+}
+
+.form__input::placeholder {
+  font-family: 'Comfortaa', cursive;
+  color: #B3B3B3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.form__btn {
+  background-color: #FFBD59;
+  padding: 17px 34px;
+  margin-top: 50px;
+  color: #272727;  
+}
+
 /* Footer */
 
 .footer {
@@ -565,12 +616,6 @@ a {
   .feedback__slider {
     width: 690px;
   }
-  /* .certificates__content img {
-    width: 280px;
-  }
-  .certificates__slider {
-    width: 880px;
-  } */
   .feedback__inner {
     grid-template-columns: 370px auto;
   }
@@ -1104,10 +1149,6 @@ a {
     max-width: 265px;
     margin-right: 40px;
   }
-  /* .promo__text {
-    max-width: 220px;
-    margin-right: 40px;
-  } */
 }
 
 @media (max-width: 463px) {
