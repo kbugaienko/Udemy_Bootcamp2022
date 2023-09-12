@@ -502,6 +502,54 @@ a {
   /* text-align: left; */
 }
 
+/* Section Accordion */
+
+.accordion__item {
+  background-color: #FFF;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 11px 0px rgba(196, 174, 151, 0.20);
+}
+
+.accordion__title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  padding: 16px 50px 16px 13px;
+  position: relative;
+}
+
+.accordion__title::after {
+  content: '';
+  background-image: url(../images/arrow.svg);
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 17px;
+  right: 26px;
+}
+
+.accordion__title.accordion__title--active::after {
+  transform: rotate(180deg);
+}
+
+.accordion__text {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity .3s, max-height .3s;
+}
+
+.accordion__text ol {
+  padding: 20px 40px;
+}
+
+.accordion__text.accordion__text--visible {
+  opacity: 1;
+}
+
 /* Section Promo */
 
 .promo {
