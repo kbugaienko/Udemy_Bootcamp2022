@@ -542,7 +542,7 @@ a {
   transition: opacity .3s, max-height .3s;
 }
 
-.accordion__text ol {
+.accordion__text .accordion__text--box {
   padding: 20px 40px;
 }
 
@@ -755,6 +755,9 @@ a {
   .follow__img {
     width: 335px;
   }
+  .accordion__title {
+    padding: 13px 50px 13px 7px;
+  }
 }
 
 @media (max-width: 980px) {
@@ -822,7 +825,8 @@ a {
     gap: 30px 16px;
   }
   .certificates__title,
-  .feedback__title {
+  .feedback__title,
+  .questions__title {
     font-size: 27px;
   }
   .feedback__slider {
@@ -1038,6 +1042,9 @@ a {
   }
   .form__btn {
     margin-top: 30px;
+  }
+  .accordion__title {
+    font-size: 12px;
   }
 }
 
@@ -1402,5 +1409,8 @@ a {
   }
   .promo__text {
     margin-right: 50px;
+  }
+  .accordion__title {
+    font-size: 10px;
   }
 }
