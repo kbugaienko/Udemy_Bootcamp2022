@@ -115,3 +115,35 @@ button {
   z-index: -1;
   position: relative;
 }
+
+/* Section Colorchoice */
+
+.colorchoice {
+  padding: 45px 0 180px;
+  text-align: center;
+}
+
+.colorchoice__title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0 auto 20px;
+  max-width: 555px;
+}
+
+.colorchoice__text {
+  max-width: 555px;
+  margin: 0 auto 80px;
+}
+
+.colorchoice__list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.colorchoice-btn {
+  border-radius: 20px;
+  border: 1px solid #777;
+  background: rgba(217, 217, 217, 0.00);
+  padding: 50px 55px;
+}
