@@ -36,23 +36,29 @@ button {
 }
 
 .container {
-  max-width: 1200px;
-  padding: 0 20px;
+  max-width: 1220px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 
 /* Section Header */
 
+.header {
+  min-height: 100vh;
+  padding-top: 40px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
 .header__top {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
-  margin-top: 40px;
 }
 
 .menu__list {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 40px;
  }
 
@@ -60,5 +66,52 @@ button {
   background-color: #000;
   color: #FFF;
   font-weight: 700;
+  text-transform: uppercase;
   padding: 16px 58px;
+}
+
+.header__content-images {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.header__content-images::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
+  z-index: -2;
+}
+
+.title {
+  font-size: 210px;
+  font-weight: 700;
+  position: absolute;
+  padding-top: 110px;
+}
+
+.title--pod {
+  position: relative;
+  z-index: -1;
+}
+
+.title--s {
+  display: inline-block;
+  transform: translateY(60px);
+}
+
+.title--m {
+  display: inline-block;
+  transform: translate(-57px, 275px);
+}
+
+.title--ax {
+  display: inline-block;
+  transform: translate(-135px, 410px);
+  z-index: -1;
+  position: relative;
 }
