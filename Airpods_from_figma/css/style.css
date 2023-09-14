@@ -147,3 +147,40 @@ button {
   background: rgba(217, 217, 217, 0.00);
   padding: 50px 55px;
 }
+
+/* Section Composition */
+
+.composition {
+  text-align: center;
+  padding-bottom: 180px;
+}
+
+.main__title {
+  font-size: 64px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.composition__title {
+
+}
+
+.composition__text {
+  max-width: 650px;
+  margin: 0 auto 40px;
+}
+
+.composition__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  max-width: 625px;
+  margin: 0 auto;
+}
+
+.composition__content-text {
+  max-width: 230px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
