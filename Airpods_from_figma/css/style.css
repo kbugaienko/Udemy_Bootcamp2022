@@ -307,9 +307,50 @@ button {
   flex-wrap: wrap;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1469px) {
   .colorchoice__list {
     flex-wrap: wrap;
+  }
+  .header__content-images img {
+    max-width: 100%;
+  }
+  .title {
+    font-size: 180px;
+    transform: translate(129px, 29px);
+  }
+}
+
+@media (max-width: 1349px) {
+  .title {
+    transform: none;
+    text-align: center;
+    font-size: 140px;
+    padding-top: 16vh;
+    right: 0;
+    left: 0;
+  }
+  .title--pod {
+    z-index: 1;
+  }
+  .title--s {
+    transform: none;
+  }
+  .title--m {
+    transform: none;
+  }
+  .title--ax {
+    transform: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .title {
+    position: relative;
+    font-size: 100px;
+    padding-top: 30px;
+  }
+  .title--m {
+    padding-left: 15px;
   }
 }
 
@@ -340,6 +381,9 @@ button {
     font-size: 110px;
     padding-bottom: 20px;
   }
+  .title {
+    font-size: 58px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -362,6 +406,6 @@ button {
     font-size: 90px;
   }
   .case__img {
-    max-width: 100%;
+    /* max-width: 100%; */
   }
 }
