@@ -261,7 +261,7 @@ button {
 .audio__box {
   color: #FFF;
   text-align: center;
-  padding-bottom: 30vh;
+  padding-bottom: 50vh;
 }
 
 .audio__text {
@@ -284,6 +284,20 @@ button {
 .footer {
   /* position: relative;
   z-index: -2; */
+  color: #FFF;
+  text-align: center;
+  font-weight: 700;
   padding: 50px 0 40px;
   background-color: #000;
+}
+
+.footer__text {
+  padding: 20px 0;
+}
+
+.footer__list {
+  display: flex;
+  gap: 0 20px;
+  justify-content: center;
+  margin-top: 80px;
 }
