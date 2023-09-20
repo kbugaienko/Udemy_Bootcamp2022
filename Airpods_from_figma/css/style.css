@@ -56,6 +56,14 @@ button {
   font-weight: 700;
 }
 
+.content-item {
+  display: none;
+}
+
+.content-item--active {
+  display: inline-block;
+}
+
 .menu__list {
   display: flex;
   align-items: center;
@@ -148,6 +156,10 @@ button {
   padding: 50px 55px;
 }
 
+.colorchoice-btn--active {
+  display: none;
+}
+
 /* Section Composition */
 
 .composition {
@@ -209,8 +221,8 @@ button {
   margin: 0 auto;
 }
 
-.case__img {
-  padding-bottom: 160px;
+.energy__title {
+  padding-top: 160px;
 }
 
 /* Section audio */
