@@ -91,8 +91,27 @@ button {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
   z-index: -2;
+}
+
+.header__content-images:has(.color--blue.content-item--active)::before {
+  background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+
+.header__content-images:has(.color--green.content-item--active)::before {
+  background: linear-gradient(180deg, #DDEAD9 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+
+.header__content-images:has(.color--silver.content-item--active)::before {
+  background: linear-gradient(180deg, #FAFAFA 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+
+.header__content-images:has(.color--pink.content-item--active)::before {
+  background: linear-gradient(180deg, #F3D6D1 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+
+.header__content-images:has(.color--grey.content-item--active)::before {
+  background: linear-gradient(180deg, #B6B6B6 0%, rgba(235, 235, 235, 0.00) 100%);
 }
 
 .title {
